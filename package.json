@@ -1,0 +1,22 @@
+{
+  "name": "webtran",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "bin": "./bin/webtran.js",
+  "scripts": {
+    "build": "pnpm tsc",
+    "dev": "pnpm build --watch"
+  },
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.10.5",
+    "typescript": "^5.3.3"
+  }
+}
